@@ -1,0 +1,8 @@
+#commands ive used for spotipy
+
+python -m venv stuti-env 
+source stuti-env/bin/activate
+python -m pip install spotipy --upgrade pip
+SPOTIPY_CLIENT_ID = '4d8475082cb742dbb6a8bb5af103af93'
+SPOTIPY_CLIENT_SECRET = '1bf869241f184a6bb23efba2d7515046'
+SPOTIPY_REDIRECT_URI = 'https://localhost:1234/callback'
